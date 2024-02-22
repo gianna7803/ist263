@@ -1,0 +1,17 @@
+/* grouped selected, will style all h1'sand p's */
+h1,p {color: plum;
+font-size: 200%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/*p {color: cadetblue;} 
+this is our absic element selector, evcery p on the page gets styled*/
+
+/* this styles a(link) inside p tag, 
+its called a descendant selector */
+p a {color:darkseagreen;}
+
+/* this styles the id */
+#secondparagraph {color: chartreuse;}
+
+/* this styles a class */
+.purpletext {color: purple;}
