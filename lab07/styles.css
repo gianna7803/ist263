@@ -1,6 +1,14 @@
 body {background-color: #ecf4d6;
-    color:#164863}
+    color:#164863;}
 
-a {color:#29ADB2}
+a {color:#29ADB2;}
 
-h1,h2 {color:#75C7D9}
+h1,h2 {color:#75C7D9;}
+
+nav a {background-color: #9AD0C2;
+color:#176B87;
+padding: 10px;}
+
+nav a:hover {background-color:#86B6F6;}
+
+nav {margin-bottom: 30px}
