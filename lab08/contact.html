@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .contact {display: flex; background-color:azure; border-radius: 1em; margin: 10px;}
+            .forms {display: flex; background-color:seashell; border-radius: 1em; margin:10px;}
+            .address, .email {flex: 1; padding: 15px;}
+            .message, .maps {flex: 1; padding: 20px;}
+        </style>
+    </head>
+    <body>
+        <body>
+            <nav>
+                <a href="https://gianna7803.github.io/ist263/lab07/">Home</a> |
+                <a href="https://gianna7803.github.io/ist263/lab07/skills.html">Skills</a> |
+                <a href="https://gianna7803.github.io/ist263/lab07/contact.html">Contact</a>
+            </nav>
+
+            <div class="contact">
+                <div class="address">
+                    <h1>Contact</h1>
+                    <p>
+                        Gianna Lanfrank<br>
+                        817 Ackerman Ave,<br>
+                        Syracuse, NY 13210
+                    </p><br>
+                </div>
+                <div class="email">
+                    <a href="mailto:gslanfra@syr.edu">Gianna Lanfrank Email</a> <br>
+                    <br>
+                    <img src="../images/LinkedIn-Logos/logo-sized.png" alt="LinkedIn"><br>
+                    <a href="https://www.linkedin.com/in/gianna-lanfrank-5949b4263" target="_blank">My Profile</a> <br>
+                    <br>
+                </div>
+            </div>
+            <div class="forms">
+                <div class="message">
+                    <h2>Send me a message!</h2>
+                    <form action="https://formspree.io/f/xzbnewor" method="post">
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname"><br>
+
+                        <p>How should I respond?</p>
+                        <input type="radio" id="email" name="emailphone" value="email">
+                        <label for="email">email</label>
+                        <input type="radio" id="phone" name="emailphone" value="phone">
+                        <label for="phone">phone number</label><br><br>
+
+                        <label>Your Contact Info & Message</label><br>
+                        <textarea id="message" name="Message" rows="3" cols="60"></textarea><br>
+
+                        <input type="submit" value="Send Form">
+                    </form>
+                </div>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11665.025086695654!2d-76.1343448445177!3d43.036039222239516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f373ba632bcd%3A0x6e10cbe70f05f1b7!2s817%20Ackerman%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706805860486!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br>
+                </div>
+            </div>
+
+    </body>
+</html>
