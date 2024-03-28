@@ -15,7 +15,7 @@ nav {margin-bottom: 30px;}
 
 @media only screen and (max-width: 800px)
     {
-     nav a {display: block;
+    nav a {display: block;
     max-width: 100%;}
     span {display: none;}
     }
