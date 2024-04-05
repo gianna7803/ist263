@@ -2,8 +2,7 @@ nav {background-color:plum;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     padding: 10px;
-    display: flex;
-}
+    display: flex;}
 
 nav a {color: #ffffff;}
 
