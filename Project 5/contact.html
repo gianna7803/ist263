@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="linked.css">
+    <style>
+        .content {display: flex;
+        flex: 1;}
+        .me {width: 400px;
+        margin: 10px 10px 10px 10px;}
+        form {padding: 40px;}
+    </style>
 </head>
 <body>
     <nav class="split">
@@ -17,5 +24,20 @@
             <a href="https://gianna7803.github.io/ist263/Project5/about.html">Contact</a> 
         </div>
     </nav>
+
+        <div class="content">
+            <img class="me" src="../Project5/images/DSC08200.JPG">
+            <form>
+                <h1>Contact Me!</h1>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="comments">Your Message</label><br>
+                <textarea id="comment" name="comment"></textarea><br>
+                <input type="submit" class ="submit" value="Send Form">
+            </form>
+        </div>
+    
 </body>
 </html>
