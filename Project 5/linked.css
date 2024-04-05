@@ -1,0 +1,15 @@
+nav {background-color:plum;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+}
+
+nav a {color: #ffffff;}
+
+body {background-color:linen;}
+
+.left, .right {display: flex;}
+.split {justify-content: space-between;}
+
+.right {margin-top: 25px;}
