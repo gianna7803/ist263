@@ -1,5 +1,5 @@
-nav {background-color:#dda0dd;
-    color: #000000;
+nav {background-color:#d8bfd8;
+    color: #663399;
     padding: 10px;
     display: flex;
     font-family: "DM Sans", sans-serif;
@@ -7,8 +7,7 @@ nav {background-color:#dda0dd;
     font-weight: 200;
     font-style: normal;}
 
-nav a {color: #000000;}
-footer a {color:rebeccapurple}
+nav a, footer a {color:#663399}
 
 body {background-color:#faf0e6;}
 
@@ -22,8 +21,7 @@ footer {
   color:#000000;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
-  display: flex;
-  } 
+  display: flex;} 
 
   h1 {font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
