@@ -1,0 +1,36 @@
+nav {background-color:#d8bfd8;
+    color: #663399;
+    padding: 10px;
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;}
+
+nav a, footer a {color:#663399}
+
+body {background-color:#faf0e6;}
+
+.left, .right {display: flex;}
+.split {justify-content: space-between;}
+
+.right {margin-top: 25px;}
+
+footer {background-color:#d8bfd8;
+  color:#000000;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  display: flex;} 
+
+  h1, h2 {font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;}
+  p, a, #form, .numbertext {font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;}
+
+#skip {font-size: 9px;
+  color:#663399}
+  
